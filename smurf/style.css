@@ -1,0 +1,44 @@
+/*
+
+*/
+body{
+    background-color: green;
+}
+
+#system{
+    margin: 0px auto;  
+
+}
+ 
+#my_canvas{
+/*    margin: 0px auto; */
+    width:50%;
+    position: relative;
+    background-color: blue;
+}
+
+canvas {
+position:absolute;
+left:0;
+top:0;
+
+}
+canvas#canvas_1{
+    z-index: 1;
+    border:1px solid blue;
+}
+canvas#canvas_2{
+    z-index: 0;
+    border:1px solid red;
+}
+canvas#canvas_3{
+    z-index: 3;
+    border:1px solid yellow;
+}
+button#jump_button {
+    margin: 0 auto;
+    position:absolute;
+    left:10px;
+    top:320px;
+    z-index: 4;
+}

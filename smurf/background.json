@@ -1,0 +1,8 @@
+{"img":[
+	{"name":"iceland","url": "img/iceland.jpg","sw":1600,"sh":711},
+	{"name":"desert","url": "img/desert.jpg","sw":1600,"sh":711},
+	{"name":"jungle","url": "img/jungle.jpg","sw":1600,"sh":711},
+	{"name":"highway","url": "img/highway.jpg","sw":1600,"sh":711}
+	]
+}
+

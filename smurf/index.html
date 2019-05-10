@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div id="system" >
+            <button type="button" id="pause" value="1" onclick="pause()">Pause</button>
+            <button type="button" id="sound" value="1" onclick="sound()">Music</button>
+            <span id="points" >0</span>
+        </div> 
+        <div id="collision" style="background-color:blue; width:20px; height:20px"></div> 
+        <div id="my_canvas">
+            <canvas id="canvas_1" width="800" height="356" ></canvas>
+            <canvas id="canvas_2" width="800" height="356" ></canvas>
+            <canvas id="canvas_3" width="800" height="356" ></canvas>
+            <button type="button" id="jump_button" onmousedown="jump()">jump</button>
+        </div>
+        
+        <script type="text/javascript" src="myscript.js"></script>
+    </body>
+</html>

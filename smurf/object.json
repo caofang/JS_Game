@@ -1,0 +1,19 @@
+{
+    "img":[   
+        {"name":"diamond","point": 30,"sx": 0, "sy": 0},
+        {"name":"rock1","point": -10,"sx": 82, "sy": 0},
+        {"name":"rock2","point": -20,"sx": 164, "sy": 0}, 
+        {"name":"box","point": 5,"sx": 0, "sy": 60}, 
+        {"name":"tire","point": -10,"sx": 82, "sy": 60}, 
+        {"name":"trash","point": 10,"sx": 164, "sy": 60}, 
+        {"name":"cone","point": -10,"sx": 0, "sy": 120}, 
+        {"name":"bat","point": 10,"sx": 164, "sy": 120},
+        {"name":"block","point": -10,"sx": 164, "sy": 120}
+    ],
+    "sw":82,
+    "sh":60,
+    "url":"img/obstacles.png"
+
+}
+    
+
